@@ -3,7 +3,7 @@
   --paper-lilac: #ece8ef;
   --paper-rose: #f1e3df;
   --ink: #292831;
-  --muted: #6e6c76;
+  --muted: #5d5a64;
   --plum: #3c3042;
   --plum-soft: #55445a;
   --coral: #c97967;
@@ -347,45 +347,45 @@ h1 em, h2 em { color: var(--coral); font-weight: 400; }
 }
 
 /* Readable type scale */
-body { font-size: 16px; line-height: 1.75; }
-nav a { font-size: 12px; }
-.eyebrow { font-size: 10px; }
-.button, .text-link { font-size: 12px; }
-.hero-lede { font-size: 16px; line-height: 1.8; }
-.hero-note { font-size: 11px; }
-.principle-strip p { font-size: 12px; line-height: 1.65; }
-.section-intro { font-size: 14px; line-height: 1.8; }
+body { font-size: 17px; line-height: 1.75; }
+nav a { font-size: 14px; }
+.eyebrow { font-size: 11px; }
+.button, .text-link { font-size: 14px; }
+.hero-lede { font-size: 18px; line-height: 1.8; }
+.hero-note { font-size: 12px; }
+.principle-strip p { font-size: 14px; line-height: 1.65; }
+.section-intro { font-size: 16px; line-height: 1.8; }
 .request-card p, .approach-card p, .about-copy > p:not(.about-lede),
 .clarity-intro > p, .clarity-list p, .step p, .format-main > p,
 .faq-intro > p, .faq-list details p, .contact-copy > p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.8;
 }
-.card-number, .format-index, .contact-links-label { font-size: 10px; }
-.audience-copy > p { font-size: 14px; line-height: 1.8; }
-.audience-list p { font-size: 13px; }
-.approach-footnote { font-size: 11px; line-height: 1.7; }
-.about-lede { font-size: 30px; }
-.about-photo-note { font-size: 9px; }
-.contact-links a { font-size: 13px; }
-.contact-links small { font-size: 11px; }
-.site-footer { font-size: 10px; }
-.site-footer a { font-size: 11px; }
+.card-number, .format-index, .contact-links-label { font-size: 11px; }
+.audience-copy > p { font-size: 16px; line-height: 1.8; }
+.audience-list p { font-size: 15px; }
+.approach-footnote { font-size: 13px; line-height: 1.7; }
+.about-lede { font-size: 32px; }
+.about-photo-note { font-size: 10px; }
+.contact-links a { font-size: 15px; }
+.contact-links small { font-size: 12px; }
+.site-footer { font-size: 12px; }
+.site-footer a { font-size: 13px; }
 
 @media (max-width: 680px) {
   nav a { font-size: 13px; }
-  .hero-lede { font-size: 14px; }
-  .hero-note { font-size: 10px; line-height: 1.6; }
-  .principle-strip p { font-size: 11px; }
-  .section-intro { font-size: 13px; }
+  .hero-lede { font-size: 16px; }
+  .hero-note { font-size: 11px; line-height: 1.6; }
+  .principle-strip p { font-size: 13px; }
+  .section-intro { font-size: 15px; }
   .request-card p, .approach-card p, .about-copy > p:not(.about-lede),
   .clarity-intro > p, .clarity-list p, .step p, .format-main > p,
   .faq-intro > p, .faq-list details p, .contact-copy > p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.75;
   }
-  .button, .text-link { font-size: 12px; }
-  .contact-links a { font-size: 12px; }
-  .contact-links small { font-size: 11px; }
-  .site-footer { font-size: 9px; }
+  .button, .text-link { font-size: 14px; }
+  .contact-links a { font-size: 14px; }
+  .contact-links small { font-size: 12px; }
+  .site-footer { font-size: 11px; }
 }
