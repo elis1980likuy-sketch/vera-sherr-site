@@ -7,6 +7,7 @@
   --plum: #07384f;
   --plum-soft: #104d64;
   --coral: #b64c55;
+  --lipstick: #e45a66;
   --gold: #d7c19c;
   --sage: #e4d9bf;
   --line: #dbd6d5;
@@ -247,7 +248,7 @@ h1 em, h2 em { color: var(--coral); font-weight: 400; }
 .contact { background: var(--plum); color: var(--white); }
 .contact-inner { padding-top: 82px; padding-bottom: 78px; display: grid; grid-template-columns: 1fr .72fr; gap: 12%; align-items: end; }
 .contact-copy h2 { max-width: 660px; margin: 14px 0 15px; font-size: clamp(57px, 7vw, 88px); line-height: .86; }
-.contact-copy h2 em { color: var(--gold); }
+.contact-copy h2 em { color: var(--lipstick); }
 .contact-copy > p { max-width: 450px; margin-bottom: 18px; color: #ded8e1; font-size: 11px; line-height: 1.9; }
 .contact-links { border-top: 1px solid rgba(255,253,250,.3); }
 .contact-links-label { padding: 15px 0 8px; color: var(--gold); font-size: 8px; font-weight: 700; letter-spacing: .16em; }
